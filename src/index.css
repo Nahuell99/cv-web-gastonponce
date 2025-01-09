@@ -1,0 +1,17 @@
+  /* Efecto de gradiente al mover el cursor */
+.body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 100, 255, 0.1) 0%, #0a0f29 60%);
+  pointer-events: none;
+  transition: background 0.1s;
+  z-index: 0;
+}
+
+.body:hover::before {
+  background: radial-gradient(circle at var(--x) var(--y), rgba(0, 100, 255, 0.2) 0%, #0a0f29 60%);
+}

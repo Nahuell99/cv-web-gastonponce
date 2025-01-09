@@ -1,0 +1,123 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  margin: 0px;
+  background-color: #0a0f29; /* Azul oscuro */
+}
+
+.degradeFondo{
+  background-color: #0a0f29; /* Azul oscuro */
+  min-height: 100vh; /* Asegurar que cubre toda la pantalla */
+  display: flex; /* Para alinear los paneles */
+  position: relative;
+}
+
+.container {
+  min-height: 100vh; /* Cambiar height por min-height */
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar horizontalmente */
+  box-sizing: border-box; /* Incluir padding en el ancho total */
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex; /* Flex para alinear los paneles */
+  gap: 20px; /* Espaciado entre los paneles */
+}
+
+/* Efecto de gradiente al mover el cursor */
+.degradeFondo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 100, 255, 0.1) 0%, #0a0f29 60%);
+  pointer-events: none;
+  transition: background 0.1s;
+  z-index: 0;
+}
+
+.degradeFondo:hover::before {
+  background: radial-gradient(circle at var(--x) var(--y), rgba(0, 100, 255, 0.2) 0%, #0a0f29 60%);
+}
+
+/* Estilo del panel derecho */
+.right-panel {
+  flex: 2 1 70%; /* Panel derecho ocupa el 70% */
+  margin-left: 30%;
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  color: #94a3b8;
+  z-index: 1;
+}
+
+.left-panel {
+  width: 30%;
+  height: calc(100% - 192px); /* Altura total menos los márgenes superior e inferior (96px + 96px) */
+  padding: 20px;
+  margin: 96px 0;
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  box-sizing: border-box;
+  flex: 1 1 30%; /* Panel izquierdo ocupa el 30% */
+  max-width: 350px; /* Ancho máximo del panel izquierdo */
+}
+
+/* Estilo del encabezado */
+.header {
+  margin-bottom: auto; /* Empuja los iconos hacia abajo */
+}
+
+/* Estilo del encabezado */
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header h2 {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #61dafb;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Estilo de los iconos sociales */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  color: #61dafb;
+}
+
+
+
