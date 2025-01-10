@@ -1,5 +1,4 @@
 .experience-card {
-    background-color: rgba(0, 0, 0, 0.2); /* Card transparent background */
     border-radius: 12px;
     padding: 20px;
     margin: 15px 0;
@@ -9,7 +8,7 @@
   }
   
   .experience-card:hover {
-    background-color: #1abc9c; /* Turquoise background on hover */
+    background-color: rgba(0, 0, 0, 0.2); /* Card transparent background */
   }
   
   .experience-header {

@@ -34,19 +34,19 @@ body, html {
 /* Efecto de gradiente al mover el cursor */
 .degradeFondo::before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(0, 100, 255, 0.1) 0%, #0a0f29 60%);
+  background: radial-gradient(circle, rgba(0, 100, 255, 0.2) 0%, #0a0f29 20%);
   pointer-events: none;
   transition: background 0.1s;
   z-index: 0;
 }
 
 .degradeFondo:hover::before {
-  background: radial-gradient(circle at var(--x) var(--y), rgba(0, 100, 255, 0.2) 0%, #0a0f29 60%);
+  background: radial-gradient(circle at var(--x) var(--y), rgba(0, 100, 255, 0.2) 0%, #0a0f29 20%);
 }
 
 /* Estilo del panel derecho */
