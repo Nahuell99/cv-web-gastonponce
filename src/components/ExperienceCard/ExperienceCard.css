@@ -8,13 +8,19 @@
   }
   
   .experience-card:hover {
-    background-color: rgba(0, 0, 0, 0.2); /* Card transparent background */
+    background-color: rgba(77, 77, 77, 0.2); /* Card transparent background */
+    box-shadow: 0 -1px 5px rgba(255, 255, 255, 0.5); /* Sombreado en la parte superior */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
   }
   
   .experience-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+  }
+
+  .experience-header:hover{
+    
   }
   
   .experience-date span {
@@ -41,8 +47,8 @@
   }
   
   .tool-pill {
-    background-color: #a5d6a7; /* Light green background */
-    color: #81c784; /* Slightly lighter green text */
+    background-color: #204e3a88; /* Fondo verde oscuro */
+    color: #a8f0c6; /* Texto verde claro */
     padding: 8px 12px;
     border-radius: 20px;
     font-size: 14px;
@@ -51,7 +57,7 @@
   }
   
   .tool-pill:hover {
-    background-color: #81c784; /* Hover color change for pills */
-    color: white;
-  }
+    background-color: #204e3a; /* Fondo verde más claro al pasar el mouse */
+    color: #a8f0c6;
+}
   

@@ -1,0 +1,58 @@
+.project-card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e2e8f0;
+    background-color: #1a2235;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    gap: 20px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .project-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    transition: color 0.2s ease;
+  }
+  
+  .project-card:hover .project-card-title {
+    color: #61dafb; /* Cambia el color del título a verde */
+  }
+  
+  .project-card-title .arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover .arrow {
+    transform: translate(5px, -5px); /* Mueve la flecha en la dirección que apunta */
+  }
+  
+  .project-card-description {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #94a3b8;
+  }  

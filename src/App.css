@@ -15,11 +15,11 @@ body, html {
 
 .container {
   min-height: 100vh; /* Cambiar height por min-height */
-  max-width: 1200px; /* Ancho máximo del contenido */
+  max-width: 1400px; /* Ancho máximo del contenido */
   margin: 0 auto; /* Centrar horizontalmente */
   box-sizing: border-box; /* Incluir padding en el ancho total */
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -52,19 +52,21 @@ body, html {
 /* Estilo del panel derecho */
 .right-panel {
   flex: 2 1 70%; /* Panel derecho ocupa el 70% */
-  margin-left: 30%;
-  width: 70%;
+  margin: 60px 0;
+  width: calc(70% - 40px); /* Ajuste del ancho considerando el padding */
+  margin-left: 30%; /* Deja espacio para el panel izquierdo fijo */
   height: 100%;
-  padding: 20px;
+  padding-left: 150px; 
   color: #94a3b8;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .left-panel {
   width: 30%;
-  height: calc(100% - 192px); /* Altura total menos los márgenes superior e inferior (96px + 96px) */
-  padding: 20px;
-  margin: 96px 0;
+  height: calc(100% - 120px);
+  padding: 0 20px 0px 0px;
+  margin: 60px 0 60px 0;
   color: white;
   position: fixed;
   display: flex;
@@ -84,18 +86,29 @@ body, html {
 /* Estilo del encabezado */
 .header h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
+  color: #E2E8F0
 }
 
 .header h2 {
   margin: 5px 0;
-  font-size: 18px;
+  font-size: 1,5rem;
   font-weight: normal;
+  font-weight: 550;
   color: #61dafb;
 }
 
+.right-panel h3 {
+  margin: 5px 0;
+  font-size: 1,5rem;
+  font-weight: normal;
+  font-weight: 550;
+  color: #E2E8F0;
+}
+
 .header p {
+  color: #94a3b8;
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.5;
@@ -108,7 +121,7 @@ body, html {
 }
 
 .social-icons a {
-  color: white;
+  color: #94a3b8;
   font-size: 24px;
   text-decoration: none;
   transition: transform 0.2s, color 0.2s;
@@ -119,5 +132,20 @@ body, html {
   color: #61dafb;
 }
 
+.presentacion{
+  padding-bottom: 80px;
+}
 
+.ExperienceDiv{
+  padding-bottom: 40px;
+}
 
+/* Grisar las tarjetas hermanas cuando una está en hover */
+.ExperienceDiv:hover .experience-card {
+  opacity: 0.5; /* Reduce la opacidad de todas */
+}
+
+/* Mantener encendida la tarjeta que está en hover */
+.ExperienceDiv .experience-card:hover {
+  opacity: 1; /* La tarjeta en hover permanece encendida */
+}
