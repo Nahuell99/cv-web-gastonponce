@@ -89,12 +89,21 @@ function App() {
           </div>
 
           <div className='ProyectDiv'>
+
             <ProjectCard
               imageSrc="/spotify-project-data.png"
-              title="Build a Spotify Connected App"
+              title="Statistics of your Spotify"
               description="Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more."
-              link="https://example.com"
+              link="https://nahuell99.github.io/spotify-data/"
             />
+
+            <ProjectCard
+              imageSrc="/spotify-project-data.png"
+              title="CV Web Page"
+              description="Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more."
+              link="https://www.gastonponce.com/"
+            />
+
           </div>
         </div>
       </div>

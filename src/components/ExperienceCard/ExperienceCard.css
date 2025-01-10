@@ -12,6 +12,10 @@
     box-shadow: 0 -1px 5px rgba(255, 255, 255, 0.5); /* Sombreado en la parte superior */
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
   }
+
+  .experience-card:hover .experience-title{
+    color: #61dafb; /* Cambia el color del título a verde */
+  }
   
   .experience-header {
     display: flex;

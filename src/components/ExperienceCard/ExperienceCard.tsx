@@ -9,7 +9,7 @@ const ExperienceCard = ({ startYear, endYear, position, company, description, to
           <span>{startYear} - {endYear || "Actual"}</span>
         </div>
         <div className="experience-title">
-          <h3>{position} - {company}</h3>
+          <h3 className="experience-title">{position} - {company}</h3>
         </div>
       </div>
       <p className="experience-description">{description}</p>

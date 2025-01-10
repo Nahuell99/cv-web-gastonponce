@@ -105,6 +105,7 @@ body, html {
   font-weight: normal;
   font-weight: 550;
   color: #E2E8F0;
+  padding-bottom: 20px;
 }
 
 .header p {
@@ -148,4 +149,11 @@ body, html {
 /* Mantener encendida la tarjeta que está en hover */
 .ExperienceDiv .experience-card:hover {
   opacity: 1; /* La tarjeta en hover permanece encendida */
+}
+
+.ProyectDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaciado de 20px entre las cards */
+  padding-bottom: 60px;
 }
