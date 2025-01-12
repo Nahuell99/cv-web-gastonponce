@@ -14,21 +14,16 @@ body, html {
 }
 
 .container {
-  min-height: 100vh; /* Cambiar height por min-height */
   max-width: 1400px; /* Ancho máximo del contenido */
   margin: 0 auto; /* Centrar horizontalmente */
   box-sizing: border-box; /* Incluir padding en el ancho total */
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 0;
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
   display: flex;
   width: 100%;
-  height: 100vh;
-  position: relative;
-  display: flex; /* Flex para alinear los paneles */
-  gap: 20px; /* Espaciado entre los paneles */
+  overflow: hidden;
 }
 
 /* Efecto de gradiente al mover el cursor */
@@ -52,11 +47,11 @@ body, html {
 /* Estilo del panel derecho */
 .right-panel {
   flex: 2 1 70%; /* Panel derecho ocupa el 70% */
-  margin: 60px 0;
+  margin: 96px 0;
   width: calc(70% - 40px); /* Ajuste del ancho considerando el padding */
   margin-left: 30%; /* Deja espacio para el panel izquierdo fijo */
   height: 100%;
-  padding-left: 150px; 
+  padding: 0 100px 0 230px; 
   color: #94a3b8;
   z-index: 1;
   box-sizing: border-box;
@@ -64,9 +59,8 @@ body, html {
 
 .left-panel {
   width: 30%;
-  height: calc(100% - 120px);
-  padding: 0 20px 0px 0px;
-  margin: 60px 0 60px 0;
+  height: calc(100% - 192px);
+  margin: 96px 0 96px 0;
   color: white;
   position: fixed;
   display: flex;
@@ -137,6 +131,10 @@ body, html {
   padding-bottom: 80px;
 }
 
+.presentacion p{
+  margin-top: 0px;
+}
+
 .ExperienceDiv{
   padding-bottom: 40px;
 }
@@ -156,4 +154,14 @@ body, html {
   flex-direction: column;
   gap: 20px; /* Espaciado de 20px entre las cards */
   padding-bottom: 60px;
+}
+
+.empresa-link {
+  color: #E2E8F0;
+  text-decoration: none;
+}
+
+.empresa-link:hover {
+  color: #61dafb;
+  text-decoration: none;
 }

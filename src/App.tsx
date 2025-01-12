@@ -25,7 +25,7 @@ function App() {
           <div className="header">
             <h1>Gaston Ponce</h1>
             <h2>FrontEnd Developer</h2>
-            <p>Apasionado por el desarrollo de software que cumplan con las exigencias y expectativas de los usuarios.</p>
+            <p>Apasionado por crear soluciones de software orientadas a satisfacer las necesidades y expectativas de los usuarios.</p>
           </div>
           <div className="social-icons">
             <a href="https://github.com/Nahuell99" target="_blank" rel="noopener noreferrer" title="GitHub">
@@ -44,13 +44,13 @@ function App() {
         </div>
         <div className="right-panel">
           <div className="presentacion">
-            <p>Soy un desarrollador apasionado por crear interfaces de usuario accesibles y perfectas en cuanto a píxeles que combinen un diseño bien pensado con una ingeniería sólida. Mi trabajo favorito se encuentra en la intersección del diseño y el desarrollo, llevando adelante los diseño al milímetro de lo diseños requeridos por los equipos de UX y negocio.</p>
+          <p>Soy un desarrollador apasionado por crear interfaces de usuario profesionales. Mi trabajo favorito se encuentra en la intersección del diseño y el desarrollo, llevando adelante los diseños al milímetro requeridos por los equipos de UX y negocio.</p>
 
-            <p>Actualmente, soy PO semi-sr en Agrology y cuento con un amplio conocimiento en el negocio aropecuario. Colaboro en la creación y mantenimiento de los sistemas de gestion agricola que forman parte de Agorlogy, lo que garantiza que nuestra plataforma cumpla con los requerimientos y necesidades que nuestros usuarios exigen.</p>
+          <p>Actualmente, soy PO semi-sr en <a href="https://www.agrology.com/" className="empresa-link"><strong>Agrology</strong></a> y cuento con un amplio conocimiento en el negocio agropecuario. Colaboro en la creación y mantenimiento de los sistemas de gestión agrícola que forman parte de Agrology, lo que garantiza que nuestra plataforma cumpla con los requerimientos y necesidades que nuestros usuarios exigen.</p>
 
-            <p>En el pasado, tuve la oportunidad de trabajar como Analista y QA en el desarrollo de aplicaciones de distribución de medicamentos en farmacias de Argentina para Mobile I Business e implementador de facilitadores de transacciones de pago para ELDAR.</p>
+          <p>En el pasado, tuve la oportunidad de trabajar como QA y desarrollador de aplicaciones de distribución de medicamentos en farmacias de Argentina para <a href="https://www.mobile-i-business.com/" className="empresa-link"><strong>Mobile I Business</strong></a> e implementador de facilitadores de transacciones de pago para <a href="https://www.eldars.com.ar/" className="empresa-link"><strong>Eldar</strong></a>.</p>
 
-            <p>En mi tiempo libre practico escalada, voy regularmente al gimnasio, me gusta ir a los teatros y cines de Buenos Aires y soy un apasionado de los videojuegos retro.</p>
+          <p>En mi tiempo libre practico escalada, voy regularmente al gimnasio, me gusta ir a los teatros y cines de Buenos Aires y soy un apasionado de los videojuegos retro.</p>
           </div>
 
           <div>
