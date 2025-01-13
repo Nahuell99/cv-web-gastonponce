@@ -3,7 +3,7 @@
     padding: 20px;
     margin: 15px 0;
     transition: background-color 0.3s ease;
-    color: white;
+    color: #94a3b8;
     cursor: pointer;
   }
   
@@ -33,9 +33,19 @@
   }
   
   .experience-title h3 {
-    font-size: 18px;
     font-weight: bold;
     margin: 0;
+  }
+
+  .experience-title .arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .experience-card:hover .arrow {
+    display: inline-block;
+    transform: translate(5px, -5px); /* Mueve la flecha en la dirección que apunta */
+    transition: transform 0.2s ease;
   }
   
   .experience-description {

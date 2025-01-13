@@ -58,7 +58,8 @@ body, html {
 }
 
 .left-panel {
-  width: 30%;
+  padding: 0 0 0 96px;
+  width: 32%;
   height: calc(100% - 192px);
   margin: 96px 0 96px 0;
   color: white;
@@ -69,7 +70,7 @@ body, html {
   z-index: 1;
   box-sizing: border-box;
   flex: 1 1 30%; /* Panel izquierdo ocupa el 30% */
-  max-width: 350px; /* Ancho máximo del panel izquierdo */
+  max-width: 450px; /* Ancho máximo del panel izquierdo */
 }
 
 /* Estilo del encabezado */
@@ -95,7 +96,7 @@ body, html {
 
 .right-panel h3 {
   margin: 5px 0;
-  font-size: 1,5rem;
+  font-size: 18px;
   font-weight: normal;
   font-weight: 550;
   color: #E2E8F0;
@@ -164,4 +165,13 @@ body, html {
 .empresa-link:hover {
   color: #61dafb;
   text-decoration: none;
+}
+
+.empresa-link .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.empresa-link:hover .arrow {
+  transform: translate(5px, -5px);
 }

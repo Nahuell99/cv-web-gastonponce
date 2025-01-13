@@ -1,15 +1,22 @@
 import React from 'react';
 import './ExperienceCard.css';
 
-const ExperienceCard = ({ startYear, endYear, position, company, description, tools }: any) => {
+const ExperienceCard = ({ startYear, endYear, position, company, description, tools, link }: any) => {
+
+  const handleClick = () => {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  };
+
   return (
-    <div className="experience-card">
+    <div className="experience-card" onClick={handleClick} style={{ cursor: link ? 'pointer' : 'default' }}>
       <div className="experience-header">
         <div className="experience-date">
           <span>{startYear} - {endYear || "Actual"}</span>
         </div>
         <div className="experience-title">
-          <h3 className="experience-title">{position} - {company}</h3>
+          <h3 className="experience-title">{position} · {company} <span className="arrow">↗</span> </h3> 
         </div>
       </div>
       <p className="experience-description">{description}</p>

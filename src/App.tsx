@@ -54,54 +54,66 @@ function App() {
           </div>
 
           <div>
-            <h3>Experiencia</h3>
+            <h3>Experiencia profesional:</h3>
           </div>
 
           <div className='ExperienceDiv'>
             <ExperienceCard
-              startYear="Oct 2022"
+              startYear="OCT 2022"
               endYear="PRESENTE"
               position="Product Owner"
               company="Agrology Data S.R.L."
-              description="Desarrollo y mantenimiento de interfaces de usuario en React, optimizando el rendimiento y asegurando la accesibilidad."
+              link="https://www.agrology.com/"
+              description="Como ProductOwner en Agrology, lideré la planificación y gestión de sprints, coordinando reuniones de planning y presentaciones de avances al directorio. Participé en pruebas de APIs utilizando Postman y documenté su integración con sistemas externos. Además, realicé testing automatizado con Playwright y gestioné el análisis de datos de Hotjar para identificar oportunidades de mejora participando en la negociación de tiempos de proyecto y la elaboración de informes de progreso para clientes y directorio."
               tools={['Postman', 'JavaScript', 'CSS', 'HTML', 'Figma']}
             />
             <ExperienceCard
-              startYear="Ene 2022"
-              endYear="Oct 2022"
-              position="Analista Funcional y QA"
+              startYear="ENE 2022"
+              endYear="OCT 2022"
+              position="Analista y QA"
+              link="https://www.eldars.com.ar/"
               company="ELDAR S.R.L"
-              description="Desarrollé soluciones backend en Node.js y gestioné bases de datos SQL."
-              tools={['Node.js', 'Express', 'MySQL']}
+              description="Como Analista en Eldar, colaboré estrechamente con clientes y equipos de desarrollo en proyectos enfocados en facilitar las transacciones financieras. Mis responsabilidades incluyeron el relevamiento y análisis de propuestas, la generación de documentación técnica y funcional, y la participación activa en squads bajo metodologías ágiles (Scrum). Además, ejecute pruebas de integración y utilizando POSTMAN para probar APIs en integraciones de terceros."
+              tools={['Postman', 'MySQL', 'Jira','HTML','CSS']}
             />
             <ExperienceCard
-              startYear="Jul 2020"
-              endYear="Ene 2022"
-              position="FrontEnd Angular - Analista QA"
+              startYear="JUL 2020"
+              endYear="ENE 2022"
+              position="Analista FrontEnd Angular"
+              link="https://www.mobile-i-business.com/"
               company="Mobile-I-Busines"
-              description="Desarrollé soluciones backend en Node.js y gestioné bases de datos SQL."
-              tools={['Node.js', 'Express', 'MySQL']}
+              description="Colabore en el área de ventas del producto a visitadores farmacéuticos, participé activamente en todas las etapas del ciclo de vida del producto, desde el relevamiento de requerimientos hasta la implementación final. Mi rol incluía el análisis funcional y técnico, la presentación de propuestas a clientes potenciales, y el desarrollo de interfaces de usuario utilizando Angular y Angular Material."
+              tools={['FormsModule', 'Routing', 'NgRx', 'AngularMaterial', 'Flexbox', 'Bootstrap', 'Angular', 'MySQL', 'Postman']}
             />
-          </div>
-
-          <div>
-            <h3>Proyectos</h3>
+            <div>
+              <h4>
+                <a className="empresa-link" href="/CV-Gaston-Ponce.pdf" target="_blank" rel="noopener noreferrer">
+                  Ver CV completo <span className="arrow">↗</span>
+                </a>
+              </h4>
+            </div>
           </div>
 
           <div className='ProyectDiv'>
-
+            <div>
+              <h3>Proyectos personales:</h3>
+            </div>
             <ProjectCard
               imageSrc="/spotify-project-data.png"
               title="Statistics of your Spotify"
-              description="Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more."
+              description="Aplicación web para visualizar tus datos personales de Spotify. Consulta tus artistas favoritos, las pistas más escuchadas por periodos de tiempos a elección. Debes solicitar tu información a Spotify para recibirla en formato .json y cargarla para ver la información real."
               link="https://nahuell99.github.io/spotify-data/"
+              sourceCode='https://github.com/Nahuell99/spotify-data'
+              tools={['Recharts', 'HTML', 'CSS', 'React','reactContext']}
             />
 
             <ProjectCard
-              imageSrc="/spotify-project-data.png"
+              imageSrc="/cv-web-page.png"
               title="CV Web Page"
               description="Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more."
               link="https://www.gastonponce.com/"
+              sourceCode='https://github.com/Nahuell99/cv-web-gastonponce'
+              tools={['HTML','CSS','reactContext']}
             />
 
           </div>
