@@ -3,20 +3,20 @@ body, html {
   height: 100%;
   font-family: 'Arial', sans-serif;
   margin: 0px;
-  background-color: #0a0f29; /* Azul oscuro */
+  background-color: #0a0f29;
 }
 
 .degradeFondo{
-  background-color: #0a0f29; /* Azul oscuro */
-  min-height: 100vh; /* Asegurar que cubre toda la pantalla */
-  display: flex; /* Para alinear los paneles */
+  background-color: #0a0f29;
+  min-height: 100vh;
+  display: flex;
   position: relative;
 }
 
 .container {
-  max-width: 1400px; /* Ancho máximo del contenido */
-  margin: 0 auto; /* Centrar horizontalmente */
-  box-sizing: border-box; /* Incluir padding en el ancho total */
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
   padding: 0;
   font-family: "Inter", serif;
   font-optical-sizing: auto;
@@ -26,7 +26,6 @@ body, html {
   overflow: hidden;
 }
 
-/* Efecto de gradiente al mover el cursor */
 .degradeFondo::before {
   content: '';
   position: fixed;
@@ -44,12 +43,11 @@ body, html {
   background: radial-gradient(circle at var(--x) var(--y), rgba(0, 100, 255, 0.2) 0%, #0a0f29 20%);
 }
 
-/* Estilo del panel derecho */
 .right-panel {
-  flex: 2 1 70%; /* Panel derecho ocupa el 70% */
+  flex: 2 1 70%; 
   margin: 96px 0;
-  width: calc(70% - 40px); /* Ajuste del ancho considerando el padding */
-  margin-left: 30%; /* Deja espacio para el panel izquierdo fijo */
+  width: calc(70% - 40px);
+  margin-left: 30%;
   height: 100%;
   padding: 0 100px 0 230px; 
   color: #94a3b8;
@@ -69,16 +67,14 @@ body, html {
   justify-content: space-between;
   z-index: 1;
   box-sizing: border-box;
-  flex: 1 1 30%; /* Panel izquierdo ocupa el 30% */
-  max-width: 450px; /* Ancho máximo del panel izquierdo */
+  flex: 1 1 30%;
+  max-width: 450px;
 }
 
-/* Estilo del encabezado */
 .header {
-  margin-bottom: auto; /* Empuja los iconos hacia abajo */
+  margin-bottom: auto;
 }
 
-/* Estilo del encabezado */
 .header h1 {
   margin: 0;
   font-size: 3rem;
@@ -91,7 +87,7 @@ body, html {
   font-size: 1,5rem;
   font-weight: normal;
   font-weight: 550;
-  color: #61dafb;
+  color: #61DAFB;
 }
 
 .right-panel h3 {
@@ -110,7 +106,6 @@ body, html {
   line-height: 1.5;
 }
 
-/* Estilo de los iconos sociales */
 .social-icons {
   display: flex;
   gap: 20px;
@@ -140,20 +135,18 @@ body, html {
   padding-bottom: 40px;
 }
 
-/* Grisar las tarjetas hermanas cuando una está en hover */
 .ExperienceDiv:hover .experience-card {
-  opacity: 0.5; /* Reduce la opacidad de todas */
+  opacity: 0.5;
 }
 
-/* Mantener encendida la tarjeta que está en hover */
 .ExperienceDiv .experience-card:hover {
-  opacity: 1; /* La tarjeta en hover permanece encendida */
+  opacity: 1;
 }
 
 .ProyectDiv {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaciado de 20px entre las cards */
+  gap: 20px;
   padding-bottom: 60px;
 }
 

@@ -1,4 +1,3 @@
-  /* Efecto de gradiente al mover el cursor */
 .body::before {
   content: '';
   position: absolute;

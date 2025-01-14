@@ -1,0 +1,57 @@
+.language-switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #94a3b8;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .switch-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .switch-circle img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  .switch-circle.left {
+    transform: translateX(0);
+  }
+  
+  .switch-circle.right {
+    transform: translateX(30px);
+  }
+  
+  .switch-text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .switch-text.left {
+    left: 8px;
+  }
+  
+  .switch-text.right {
+    right: 8px;
+  }
+  

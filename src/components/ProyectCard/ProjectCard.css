@@ -8,7 +8,7 @@
   border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   gap: 20px;
-  position: relative; /* Necesario para posicionar los iconos en la esquina superior derecha */
+  position: relative;
 }
 
 .project-icons {
@@ -83,8 +83,8 @@
 }
 
 .tool-pill {
-  background-color: #204e3a88; /* Fondo verde oscuro */
-  color: #a8f0c6; /* Texto verde claro */
+  background-color: #204e3a88;
+  color: #a8f0c6;
   padding: 8px 12px;
   border-radius: 20px;
   font-size: 14px;
@@ -93,6 +93,6 @@
 }
 
 .tool-pill:hover {
-  background-color: #204e3a; /* Fondo verde más claro al pasar el mouse */
+  background-color: #204e3a;
   color: #a8f0c6;
 }

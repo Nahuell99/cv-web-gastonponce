@@ -1,3 +1,31 @@
 {
-    "open": "Open"
-}
+    "present": "PRESENTE",
+    "JAN": "ENE",
+    "FEB": "FEB",
+    "MAR": "MAR",
+    "APR": "ABR",
+    "MAY": "MAY",
+    "JUN": "JUN",
+    "JUL": "JUL",
+    "AUG": "AGO",
+    "SEP": "SEP",
+    "OCT": "OCT",
+    "NOV": "NOV",
+    "DEC": "DIC",
+    "pre-presentation": "Apasionado por crear soluciones de software orientadas a satisfacer las necesidades y expectativas de los usuarios.",
+    "presentation-p1": "Soy un desarrollador apasionado por crear interfaces de usuario profesionales. Mi trabajo favorito se encuentra en la intersección del diseño y el desarrollo, llevando adelante los diseños al milímetro requeridos por los equipos de UX y negocio.",
+    "presentation-p2-1": "Actualmente, soy Product Owner semi-sr en ",
+    "presentation-p2-2": " y cuento con un amplio conocimiento en el negocio agropecuario. Colaboro en la creación y mantenimiento de los sistemas de gestión agrícola que forman parte de la compañía, lo que garantiza que nuestra plataforma cumpla con los requerimientos y necesidades que nuestros usuarios exigen.",
+    "presentation-p3-1": "En el pasado, tuve la oportunidad de trabajar como QA y desarrollador de aplicaciones de distribución de medicamentos en farmacias de Argentina para ",
+    "presentation-p3-2": " e implementador de facilitadores de transacciones de pago para ",
+    "presentation-p4": "En mi tiempo libre practico escalada, voy regularmente al gimnasio, me gusta ir a los teatros y cines de Buenos Aires y soy un apasionado de los videojuegos retro.",
+    "professionalExperience:": "Experiencia profesional:",
+    "descriptionAgrology": "Como ProductOwner en Agrology, lideré la planificación y gestión de sprints, coordinando reuniones de planning y presentaciones de avances al directorio. Participé en pruebas de APIs utilizando Postman y documenté su integración con sistemas externos. Además, realicé testing automatizado con Playwright y gestioné el análisis de datos de Hotjar para identificar oportunidades de mejora participando en la negociación de tiempos de proyecto y la elaboración de informes de progreso para clientes y directorio.",
+    "descriptionEldar": "Como Analista en Eldar, colaboré estrechamente con clientes y equipos de desarrollo en proyectos enfocados en facilitar las transacciones financieras. Mis responsabilidades incluyeron el relevamiento y análisis de propuestas, la generación de documentación técnica y funcional, y la participación activa en squads bajo metodologías ágiles (Scrum). Además, ejecute pruebas de integración y utilizando POSTMAN para probar APIs en integraciones de terceros.",
+    "descriptionMiB": "Colabore en el área de ventas del producto a visitadores farmacéuticos, participé activamente en todas las etapas del ciclo de vida del producto, desde el relevamiento de requerimientos hasta la implementación final. Mi rol incluía el análisis funcional y técnico, la presentación de propuestas a clientes potenciales, y el desarrollo de interfaces de usuario utilizando Angular y Angular Material.",
+    "fullCV": "Ver CV completo",
+    "personalProjects": "Proyectos personales:",
+    "statisticsSpotify": "Estadísticas de tu Spotify",
+    "statisticsSpotify-description": "Aplicación web para visualizar tus datos personales de Spotify. Consulta tus artistas favoritos, las pistas más escuchadas por periodos de tiempos a elección. Debes solicitar tu información a Spotify para recibirla en formato .json y cargarla para ver la información real.",
+    "cv-description": "Sitio web personal que presenta la información de mi currículum vitae. Desarrollado con React, utilizando HTML y CSS puros para los componentes. Implementé un sistema de selección de idiomas y lo alojé en un dominio propio."
+  }

@@ -1,3 +1,31 @@
 {
-    "open": "Abrir"
-}
+    "present": "PRESENT",
+    "JAN": "JAN",
+    "FEB": "FEB",
+    "MAR": "MAR",
+    "APR": "APR",
+    "MAY": "MAY",
+    "JUN": "JUN",
+    "JUL": "JUL",
+    "AUG": "AUG",
+    "SEP": "SEP",
+    "OCT": "OCT",
+    "NOV": "NOV",
+    "DEC": "DEC",
+    "pre-presentation": "Passionate about developing software solutions focused on meeting user needs and expectations.",
+    "presentation-p1": "I am a passionate developer focused on creating professional user interfaces. My favorite work lies at the intersection of design and development, delivering pixel-perfect implementations required by UX and business teams.",
+    "presentation-p2-1": "Currently, I am a semi-senior Product Owner at ",
+    "presentation-p2-2": " with extensive knowledge in the agribusiness sector. I contribute to the creation and maintenance of the agricultural management systems that are part of company, ensuring that our platform meets the requirements and needs of our users.",
+    "presentation-p3-1": "In the past, I had the opportunity to work as a QA and application developer for pharmaceutical distribution systems in Argentina for ",
+    "presentation-p3-2": " and as an implementer of payment transaction facilitators for ",
+    "presentation-p4": "In my free time, I practice climbing, go to the gym regularly, enjoy visiting theaters and cinemas in Buenos Aires, and I am passionate about retro video games.",
+    "professionalExperience:": "Professional experience:",
+    "descriptionAgrology": "As a Product Owner at Agrology, I led sprint planning and management, coordinating planning meetings and progress presentations to the board. I participated in API testing using Postman and documented their integration with external systems. Additionally, I performed automated testing with Playwright and managed data analysis using Hotjar to identify improvement opportunities. I was also involved in project timeline negotiation and prepared progress reports for clients and the board.",
+    "descriptionEldar": "As an Analyst at Eldar, I worked closely with clients and development teams on projects aimed at streamlining financial transactions. My responsibilities included gathering and analyzing requirements, creating technical and functional documentation, and actively participating in agile squads (Scrum). Additionally, I conducted integration testing and used POSTMAN to test APIs in third-party integrations",
+    "descriptionMiB": "I collaborated in the sales area of the product for pharmaceutical representatives, actively participating in all stages of the product lifecycle, from requirements gathering to final implementation. My role involved functional and technical analysis, presenting proposals to potential clients, and developing user interfaces using Angular and Angular Material.",
+    "fullCV": "View full CV",
+    "personalProjects": "Personal projects:",
+    "statisticsSpotify": "Statistics of your Spotify",
+    "statisticsSpotify-description": "Web application to visualize your personal Spotify data. Explore your favorite artists and most played tracks over customizable time periods. You need to request your data from Spotify, which will be provided in .json format, and upload it to view the actual information.",
+    "cv-description": "Personal website showcasing my resume information. Developed with React, using plain HTML and CSS for the components. I implemented a language selection system and hosted it on my own domain."
+  }
