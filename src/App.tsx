@@ -5,6 +5,10 @@ import ExperienceCard from './components/ExperienceCard/ExperienceCard';
 import ProjectCard from './components/ProyectCard/ProjectCard';
 import { useLanguage } from './LanguageContext';
 import LanguageSwitch from './components/LanguageSwitch/LanguageSwitch'; // Importar el switch
+import cvPng from "./assets/cv-web-page.png";
+import spotifyPng from "./assets/spotify-project-data.png";
+import cv from "./assets/CV-Gaston-Ponce.pdf";
+
 
 function App() {
   const { setLanguage, t, language } = useLanguage();
@@ -90,7 +94,7 @@ function App() {
             />
             <div>
               <h4>
-                <a className="empresa-link" href="/CV-Gaston-Ponce.pdf" target="_blank" rel="noopener noreferrer">
+                <a className="empresa-link" href={cv} target="_blank" rel="noopener noreferrer">
                 {t("fullCV")} <span className="arrow">↗</span>
                 </a>
               </h4>
@@ -101,7 +105,7 @@ function App() {
               <h3>{t("personalProjects")}</h3>
             </div>
             <ProjectCard
-              imageSrc="/spotify-project-data.png"
+              imageSrc={spotifyPng}
               title={t("statisticsSpotify")}
               description={t("statisticsSpotify-description")}
               link="https://nahuell99.github.io/spotify-data/"
@@ -109,7 +113,7 @@ function App() {
               tools={['Recharts', 'HTML', 'CSS', 'React', 'reactContext']}
             />
             <ProjectCard
-              imageSrc="/cv-web-page.png"
+              imageSrc={cvPng}
               title="CV Web Page"
               description={t("cv-description")}
               link="https://www.gastonponce.com/"

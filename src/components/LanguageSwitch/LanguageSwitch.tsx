@@ -1,5 +1,7 @@
 import React from "react";
 import "./LanguageSwitch.css"; // Archivo CSS para los estilos
+import ukFlag from "../../assets/uk-flag.svg";
+import spainFlag from "../../assets/spain-flag.svg";
 
 interface LanguageSwitchProps {
   language: string;
@@ -18,7 +20,7 @@ const LanguageSwitch: React.FC<LanguageSwitchProps> = ({ language, setLanguage }
       </span>
       <div className={`switch-circle ${language === "en" ? "left" : "right"}`}>
         <img
-          src={language === "en" ? "/uk-flag.svg" : "/spain-flag.svg"}
+          src={language === "en" ? ukFlag : spainFlag}
           alt={language === "en" ? "English" : "Español"}
         />
       </div>
