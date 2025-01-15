@@ -77,20 +77,20 @@ function App() {
             <ExperienceCard
               startYear={t("JAN")+" 2022"}
               endYear={t("OCT")+" 2022"}
-              position="Analista y QA"
+              position="FrontEnd - QA Analyst"
               link="https://www.eldars.com.ar/"
               company="ELDAR S.R.L"
               description={t("descriptionEldar")}
-              tools={['Postman', 'MySQL', 'Jira', 'HTML', 'CSS']}
+              tools={['Postman', 'MySQL', 'HTML', 'CSS','Figma','SCRUM']}
             />
             <ExperienceCard
               startYear={t("JUL")+" 2020"}
               endYear={t("JAN")+" 2022"}
-              position="Analista FrontEnd Angular"
+              position="Analyst FrontEnd Angular"
               link="https://www.mobile-i-business.com/"
               company="Mobile-I-Busines"
               description={t("descriptionMiB")}
-              tools={['FormsModule', 'Routing', 'NgRx', 'AngularMaterial', 'Flexbox', 'Bootstrap', 'Angular', 'MySQL', 'Postman']}
+              tools={['FormsModule', 'Routing', 'NgRx', 'AngularMaterial', 'Flexbox', 'Bootstrap', 'Angular', 'MySQL', 'Postman', 'HTML','CSS','PlaywRight']}
             />
             <div>
               <h4>
