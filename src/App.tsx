@@ -58,9 +58,9 @@ function App() {
           <div className="presentacion">
             <p>{t("presentation-p1")}</p>
 
-            <p>{t("presentation-p2-1")}<a href="https://www.agrology.com/" className="empresa-link"><strong>Agrology</strong></a>{t("presentation-p2-2")}</p>
+            <p>{t("presentation-p2-1")}<a href="https://www.agrology.com/" className="empresa-link" rel="noopener noreferrer" target="_blank"><strong>Agrology</strong></a>{t("presentation-p2-2")}</p>
 
-            <p>{t("presentation-p3-1")}<a href="https://www.mobile-i-business.com/" className="empresa-link"><strong>Mobile I Business</strong></a>{t("presentation-p3-2")}<a href="https://www.eldars.com.ar/" className="empresa-link"><strong>Eldar</strong></a>.</p>
+            <p>{t("presentation-p3-1")}<a href="https://www.mobile-i-business.com/" className="empresa-link" rel="noopener noreferrer" target="_blank"><strong>Mobile I Business</strong></a>{t("presentation-p3-2")}<a href="https://www.eldars.com.ar/" rel="noopener noreferrer" className="empresa-link" target="_blank"><strong>Eldar</strong></a>.</p>
 
             <p>{t("presentation-p4")}</p>
           </div>

@@ -4,7 +4,10 @@ const ExperienceCard = ({ startYear, endYear, position, company, description, to
 
   const handleClick = () => {
     if (link) {
-      window.open(link, '_blank');
+      const newWindow = window.open(link, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
     }
   };
 
