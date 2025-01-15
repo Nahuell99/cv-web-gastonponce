@@ -7,11 +7,14 @@ import { useLanguage } from './LanguageContext';
 import LanguageSwitch from './components/LanguageSwitch/LanguageSwitch'; // Importar el switch
 import cvPng from "./assets/cv-web-page.png";
 import spotifyPng from "./assets/spotify-project-data.png";
-import cv from "./assets/CV-Gaston-Ponce.pdf";
+import CV_EN from './assets/CV-Gaston Ponce-FE-EN.pdf';
+import CV_ES from './assets/CV-Gaston Ponce-FE-ES.pdf';
 
 
 function App() {
   const { setLanguage, t, language } = useLanguage();
+
+  const cv = language === 'es' ? CV_ES : CV_EN;
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -92,6 +95,7 @@ function App() {
               description={t("descriptionMiB")}
               tools={['FormsModule', 'Routing', 'NgRx', 'AngularMaterial', 'Flexbox', 'Bootstrap', 'Angular', 'MySQL', 'Postman', 'HTML','CSS','PlaywRight']}
             />
+
             <div>
               <h4>
                 <a className="empresa-link" href={cv} target="_blank" rel="noopener noreferrer">
@@ -99,6 +103,7 @@ function App() {
                 </a>
               </h4>
             </div>
+            
           </div>
           <div className='ProyectDiv'>
             <div>
