@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import ExperienceCard from './components/ExperienceCard/ExperienceCard';
@@ -31,6 +33,8 @@ function App() {
 
   return (
     <div className='degradeFondo'>
+      <Analytics />
+      <SpeedInsights />
       <LanguageSwitch language={language} setLanguage={setLanguage} /> {/* Switch flotante */}
       <div className="container">
         <div className="left-panel">
