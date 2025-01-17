@@ -27,21 +27,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageSrc, title, description,
       <div className="project-card-image">
         <img src={imageSrc} alt={title} />
       </div>
-      <div>
-      <div className="project-icons">
-        <a href={sourceCode} target="_blank" rel="noopener noreferrer" title="Código fuente" className="icon">
-          <FaGithub />
-        </a>
-        <a href={link} target="_blank" rel="noopener noreferrer" title="Sitio web" className="icon">
-          <FaGlobe />
-        </a>
-      </div>
-        <div className="project-card-content">
-          <h3 className="project-card-title">
-            {title} <span className="arrow">↗</span>
-          </h3>
-          <p className="project-card-description">{description}</p>
+      <div className="project-card-content">
+        <div className="project-card-header">
+          <h4 className="project-card-title">{title} <span className="arrow">↗</span> </h4>
+          <div className="project-icons">
+            <a href={sourceCode} target="_blank" rel="noopener noreferrer" title="Código fuente" className="icon">
+              <FaGithub />
+            </a>
+            <a href={link} target="_blank" rel="noopener noreferrer" title="Sitio web" className="icon">
+              <FaGlobe />
+            </a>
+          </div>
         </div>
+        <p className="project-card-description">{description}</p>
         <div className="tools">
           {tools.map((tool: string, index: number) => (
             <span key={index} className="tool-pill">{tool}</span>

@@ -35,7 +35,7 @@ function App() {
     <div className='degradeFondo'>
       <Analytics />
       <SpeedInsights />
-      <LanguageSwitch language={language} setLanguage={setLanguage} /> {/* Switch flotante */}
+      <LanguageSwitch language={language} setLanguage={setLanguage} />
       <div className="container">
         <div className="left-panel">
           <div className="header">

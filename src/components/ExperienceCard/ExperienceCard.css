@@ -1,77 +1,81 @@
 .experience-card {
-    border-radius: 12px;
-    padding: 20px;
-    margin: 15px 0;
-    transition: background-color 0.3s ease;
-    color: #94a3b8;
-    cursor: pointer;
-  }
-  
-  .experience-card:hover {
-    background-color: rgba(77, 77, 77, 0.2);
-    box-shadow: 0 -1px 5px rgba(255, 255, 255, 0.5);
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  }
-
-  .experience-card:hover .experience-title{
-    color: #61dafb;
-  }
-  
-  .experience-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  
-  .experience-date span {
-    font-size: 14px;
-    color: #bbb;
-  }
-  
-  .experience-title h3 {
-    font-weight: bold;
-    margin: 0;
-  }
-
-  .experience-title .arrow {
-    display: inline-block;
-    transition: transform 0.2s ease;
-  }
-  
-  .experience-card:hover .arrow {
-    display: inline-block;
-    transform: translate(5px, -5px);
-    transition: transform 0.2s ease;
-  }
-  
-  .experience-description {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-  
-  .tools {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  
-  .tool-pill {
-    background-color: #204e3a88;
-    color: #a8f0c6;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    text-transform: capitalize;
-    transition: background-color 0.2s ease, color 0.2s ease;
-  }
-  
-  .tool-pill:hover {
-    background-color: #204e3a;
-    color: #a8f0c6;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  transition: background-color 0.3s ease;
+  color: #94a3b8;
+  cursor: pointer;
 }
-  
-@media (max-width: 768px) {
+
+.experience-card:hover {
+  background-color: rgba(77, 77, 77, 0.2);
+  box-shadow: 0 -1px 5px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.experience-card:hover .experience-title {
+  color: #61dafb;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.experience-date {
+  padding-bottom: 8px;
+}
+
+.experience-date span {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.experience-title h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.experience-title .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.experience-card:hover .arrow {
+  display: inline-block;
+  transform: translate(5px, -5px);
+  transition: transform 0.2s ease;
+}
+
+.experience-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.tools {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tool-pill {
+  background-color: #204e3a88;
+  color: #a8f0c6;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tool-pill:hover {
+  background-color: #204e3a;
+  color: #a8f0c6;
+}
+
+@media (max-width: 1024px) {
   .experience-card {
     padding: 0;
     margin-bottom: 3rem;
