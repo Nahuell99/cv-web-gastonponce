@@ -60,6 +60,9 @@ function App() {
         </div>
         <div className="right-panel">
           <div className="presentacion">
+
+            <h3 className="mobile-only">{t("aboutMe")}</h3>
+
             <p>{t("presentation-p1")}</p>
 
             <p>{t("presentation-p2-1")}<a href="https://www.agrology.com/" className="empresa-link" rel="noopener noreferrer" target="_blank"><strong>Agrology</strong></a>{t("presentation-p2-2")}</p>

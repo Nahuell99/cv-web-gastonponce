@@ -27,5 +27,6 @@
     "personalProjects": "Personal projects:",
     "statisticsSpotify": "Statistics of your Spotify",
     "statisticsSpotify-description": "Web application to visualize your personal Spotify data. Explore your favorite artists and most played tracks over customizable time periods. You need to request your data from Spotify, which will be provided in .json format, and upload it to view the actual information.",
-    "cv-description": "Personal website showcasing my resume information. Developed with React, using plain HTML and CSS for the components. I implemented a language selection system and hosted it on my own domain."
+    "cv-description": "Personal website showcasing my resume information. Developed with React, using plain HTML and CSS for the components. I implemented a language selection system and hosted it on my own domain.",
+    "aboutMe": "About Me:"
   }

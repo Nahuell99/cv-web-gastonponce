@@ -71,3 +71,30 @@
     color: #a8f0c6;
 }
   
+@media (max-width: 768px) {
+  .experience-card {
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .experience-card:hover {
+    background-color: initial;
+    box-shadow: none;
+    transition: none;
+  }
+
+  .experience-title h3 {
+    font-size: 14px;
+    padding-bottom: 4px;
+
+  }
+
+  .experience-description {
+    font-size: 13px;
+  }
+
+  .tool-pill {
+    padding: 4px 6px;
+    font-size: 11px;
+  }
+}

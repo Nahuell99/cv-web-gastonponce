@@ -27,5 +27,6 @@
     "personalProjects": "Proyectos personales:",
     "statisticsSpotify": "Estadísticas de tu Spotify",
     "statisticsSpotify-description": "Aplicación web para visualizar tus datos personales de Spotify. Consulta tus artistas favoritos, las pistas más escuchadas por periodos de tiempos a elección. Debes solicitar tu información a Spotify para recibirla en formato .json y cargarla para ver la información real.",
-    "cv-description": "Sitio web personal que presenta la información de mi currículum vitae. Desarrollado con React, utilizando HTML y CSS puros para los componentes. Implementé un sistema de selección de idiomas y lo alojé en un dominio propio."
+    "cv-description": "Sitio web personal que presenta la información de mi currículum vitae. Desarrollado con React, utilizando HTML y CSS puros para los componentes. Implementé un sistema de selección de idiomas y lo alojé en un dominio propio.",
+    "aboutMe": "Sobre mi:"
   }
