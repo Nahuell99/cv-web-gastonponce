@@ -9,8 +9,8 @@ import { useLanguage } from './LanguageContext';
 import LanguageSwitch from './components/LanguageSwitch/LanguageSwitch'; // Importar el switch
 import cvPng from "./assets/cv-web-page.png";
 import spotifyPng from "./assets/spotify-project-data.png";
-import CV_EN from './assets/CV-Gaston Ponce-FE-EN.pdf';
-import CV_ES from './assets/CV-Gaston Ponce-FE-ES.pdf';
+import CV_EN from './assets/CV-Gaston Ponce-PO-EN.pdf';
+import CV_ES from './assets/CV-Gaston Ponce-PO-ES.pdf';
 
 
 function App() {
@@ -76,7 +76,7 @@ function App() {
           </div>
           <div className='ExperienceDiv'>
             <ExperienceCard
-              startYear={t("OCT")+" 2022"}
+              startYear={t("APR")+" 2022"}
               endYear={t("present")}
               position="Product Owner"
               company="Agrology Data S.R.L."
@@ -85,8 +85,8 @@ function App() {
               tools={['Postman', 'JavaScript', 'CSS', 'HTML', 'Figma']}
             />
             <ExperienceCard
-              startYear={t("JAN")+" 2022"}
-              endYear={t("OCT")+" 2022"}
+              startYear={t("MAY")+" 2021"}
+              endYear={t("APR")+" 2022"}
               position="FrontEnd - QA Analyst"
               link="https://www.eldars.com.ar/"
               company="ELDAR S.R.L"
@@ -94,8 +94,8 @@ function App() {
               tools={['Postman', 'MySQL', 'HTML', 'CSS','Figma','SCRUM']}
             />
             <ExperienceCard
-              startYear={t("JUL")+" 2020"}
-              endYear={t("JAN")+" 2022"}
+              startYear={t("DEC")+" 2019"}
+              endYear={t("MAY")+" 2021"}
               position="Analyst FrontEnd Angular"
               link="https://www.mobile-i-business.com/"
               company="Mobile-I-Busines"
