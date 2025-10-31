@@ -76,6 +76,15 @@ function App() {
           </div>
           <div className='ExperienceDiv'>
             <ExperienceCard
+              startYear={t("OCT")+" 2025"}
+              endYear={t("present")}
+              position="Backend Developer"
+              company="CeibusTech"
+              link="https://www.ceibustech.com/"
+              description={t("descriptionCeibusTech")}
+              tools={["NestJS", "TypeScript", "PostgreSQL", "TypeORM", "JWT", "Docker", "Kubernetes", "Axios", "bcrypt"]}
+            />
+            <ExperienceCard
               startYear={t("APR")+" 2022"}
               endYear={t("present")}
               position="Product Owner"
