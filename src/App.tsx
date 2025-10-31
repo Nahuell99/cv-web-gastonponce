@@ -40,7 +40,7 @@ function App() {
         <div className="left-panel">
           <div className="header">
             <h1>Gaston Ponce</h1>
-            <h2>ProductOwner</h2>
+            <h2>Fullstack Software Engineer</h2>
             <p>{t("pre-presentation")}</p>
           </div>
           <div className="social-icons">
