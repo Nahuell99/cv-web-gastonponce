@@ -78,29 +78,29 @@ function App() {
             <ExperienceCard
               startYear={t("APR")+" 2022"}
               endYear={t("present")}
-              position="Product Owner"
+              position="Senior Software Engineer"
               company="Agrology Data S.R.L."
               link="https://www.agrology.com/"
               description={t("descriptionAgrology")}
-              tools={['Postman', 'JavaScript', 'CSS', 'HTML', 'Figma']}
+              tools={['React', 'TypeScript', 'Django', 'DRF', 'Leaflet', 'Recharts', 'MobX', 'AWS S3', 'Pytest', 'Playwright', 'Vite', 'Tailwind', 'MUI']}
             />
             <ExperienceCard
               startYear={t("MAY")+" 2021"}
               endYear={t("APR")+" 2022"}
-              position="FrontEnd - QA Analyst"
+              position="Senior Software Engineer"
               link="https://www.eldars.com.ar/"
               company="ELDAR S.R.L"
               description={t("descriptionEldar")}
-              tools={['Postman', 'MySQL', 'HTML', 'CSS','Figma','SCRUM']}
+              tools={['Node.js', 'Express', 'TypeORM', 'PostgreSQL', 'Python', 'Pandas', 'REST APIs']}
             />
             <ExperienceCard
               startYear={t("DEC")+" 2019"}
               endYear={t("MAY")+" 2021"}
-              position="Analyst FrontEnd Angular"
+              position="Frontend Software Engineer"
               link="https://www.mobile-i-business.com/"
-              company="Mobile-I-Busines"
+              company="Mobile I Business"
               description={t("descriptionMiB")}
-              tools={['FormsModule', 'Routing', 'NgRx', 'AngularMaterial', 'Flexbox', 'Bootstrap', 'Angular', 'MySQL', 'Postman', 'HTML','CSS','PlaywRight']}
+              tools={['Angular', 'NgRx', 'AngularMaterial', 'Bootstrap', 'SQL', 'Google Data Studio']}
             />
 
             <div>
