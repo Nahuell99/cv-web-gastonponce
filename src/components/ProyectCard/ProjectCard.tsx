@@ -1,7 +1,6 @@
 import React from 'react';
 import './ProjectCard.css';
-import { FaGithub, FaGlobe } from 'react-icons/fa';
-
+import { Github, Globe } from 'lucide-react';
 
 interface ProjectCardProps {
   imageSrc: string;
@@ -21,21 +20,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageSrc, title, description,
     }
   };
 
-
   return (
     <div className="project-card" onClick={handleClick} style={{ cursor: link ? 'pointer' : 'default' }}>
       <div className="project-card-image">
-        <img src={imageSrc} alt={title} />
+        <img src={imageSrc} alt={title} loading="lazy" decoding="async" width={200} height={120} />
       </div>
       <div className="project-card-content">
         <div className="project-card-header">
           <h4 className="project-card-title">{title} <span className="arrow">↗</span> </h4>
           <div className="project-icons">
-            <a href={sourceCode} target="_blank" rel="noopener noreferrer" title="Código fuente" className="icon">
-              <FaGithub />
+            <a href={sourceCode} target="_blank" rel="noopener noreferrer" title="Source code" className="icon">
+              <Github size={24} />
             </a>
-            <a href={link} target="_blank" rel="noopener noreferrer" title="Sitio web" className="icon">
-              <FaGlobe />
+            <a href={link} target="_blank" rel="noopener noreferrer" title="Website" className="icon">
+              <Globe size={24} />
             </a>
           </div>
         </div>

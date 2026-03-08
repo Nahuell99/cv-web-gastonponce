@@ -2,16 +2,15 @@ import { useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
 import ExperienceCard from './components/ExperienceCard/ExperienceCard';
 import ProjectCard from './components/ProyectCard/ProjectCard';
 import { useLanguage } from './LanguageContext';
-import LanguageSwitch from './components/LanguageSwitch/LanguageSwitch'; // Importar el switch
+import LanguageSwitch from './components/LanguageSwitch/LanguageSwitch';
 import cvPng from "./assets/cv-web-page.png";
 import spotifyPng from "./assets/spotify-project-data.png";
 import CV_EN from './assets/CV-Gaston Ponce-PO-EN.pdf';
 import CV_ES from './assets/CV-Gaston Ponce-PO-ES.pdf';
-
 
 function App() {
   const { setLanguage, t, language } = useLanguage();
@@ -21,8 +20,10 @@ function App() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       const container = document.querySelector('.degradeFondo') as HTMLElement;
-      container.style.setProperty('--x', `${e.clientX}px`);
-      container.style.setProperty('--y', `${e.clientY}px`);
+      if (container) {
+        container.style.setProperty('--x', `${e.clientX}px`);
+        container.style.setProperty('--y', `${e.clientY}px`);
+      }
     };
 
     window.addEventListener('mousemove', handleMouseMove);
@@ -45,16 +46,16 @@ function App() {
           </div>
           <div className="social-icons">
             <a href="https://github.com/Nahuell99" target="_blank" rel="noopener noreferrer" title="GitHub">
-              <FaGithub />
+              <Github size={24} />
             </a>
             <a href="https://www.linkedin.com/in/gastonponce/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-              <FaLinkedin />
+              <Linkedin size={24} />
             </a>
             <a href="https://www.instagram.com/nahuelg.ponce/" target="_blank" rel="noopener noreferrer" title="Instagram">
-              <FaInstagram />
+              <Instagram size={24} />
             </a>
             <a href="mailto:NahuelG.Ponce@gmail.com" title="Email">
-              <FaEnvelope />
+              <Mail size={24} />
             </a>
           </div>
         </div>
